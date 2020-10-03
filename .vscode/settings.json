@@ -1,0 +1,33 @@
+{
+    "git.ignoreLimitWarning": true,
+    "beautify.config": "",
+    "beautify.language": {
+
+
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc",
+                "d3.js"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    },
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "hack",
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+}

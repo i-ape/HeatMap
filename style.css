@@ -1,0 +1,33 @@
+html {
+  min-height: 100%;
+}
+#legend,
+#description {
+  color: blueviolet;
+  text-decoration-color: blueviolet;
+}
+body {
+  background-color: #1e1f21;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+svg {
+  background-color: #35363a;
+  color: aliceblue;
+}
+
+#canvas {
+  min-width: 1200px;
+  min-height: 600px;
+}
+#tooltip {
+  color: blueviolet;
+
+  visibility: hidden;
+  height: auto;
+  width: auto;
+}

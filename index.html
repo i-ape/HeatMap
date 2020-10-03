@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title id="title">Visualize Data with a Heat Map</title>
+  </head>
+
+  <body>
+    <h1 id="legend">Visualize Data with a Heat Map</h1>
+    <h4 id="description">Temperatures from 1753 to 2015</h4>
+    <div id="tooltip"></div>
+    <svg id="canvas" width="1000" height="600">
+      <text id="title" fill="white" x="20" y="20">WAHHH globo waman</text>
+    </svg>
+    <svg id="legend" width="1200" height="50">
+      <g>
+        <rect x="0" y="0" width="50" height="50" fill="SteelBlue"></rect>
+        <text x="60" y="25" fill="white">Cold as fuck</text>
+      </g>
+      <g>
+        <rect x="300" y="0" width="50" height="50" fill="LightSteelBlue"></rect>
+        <text x="360" y="25" fill="white">Ireland cold</text>
+      </g>
+      <g>
+        <rect x="600" y="0" width="50" height="50" fill="orange"></rect>
+        <text x="660" y="25" fill="white">Warm but not africa warm</text>
+      </g>
+      <g>
+        <rect x="900" y="0" width="50" height="50" fill="Crimson"></rect>
+        <text x="960" y="25" fill="white">Spicy</text>
+      </g>
+    </svg>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
